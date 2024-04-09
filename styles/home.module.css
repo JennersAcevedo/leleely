@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 .container {
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     padding-right: 14vw;
     padding-top: 5vw;
     min-height: 100vh;
-    background-color: #1f1f1f;
+    background-color: #cfa3cf;
     color: white;
 }
 
@@ -25,7 +25,8 @@
 }
 
 .description {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
     font-size: 8vw;
 }
 
@@ -49,7 +50,8 @@
     margin-top: 10vh;
     margin-bottom: 2vh;
     font-weight: 500;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
     font-size: 5vh;
 }
 
@@ -61,7 +63,8 @@
     margin-left: 1vh;
     font-size: 2vh;
     font-weight: 700;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
 }
 
 .social a {
@@ -81,8 +84,8 @@
     flex-wrap: wrap;
     justify-content: center;
     border-radius: 2vh;
-    background: #1f1f1f;
-    background: linear-gradient(to bottom, #1f1f1f, #2c2c2c);
+    /* background: #1f1f1f; */
+    /* background: linear-gradient(to bottom, #1f1f1f, #2c2c2c); */
 }
 
 .profile {
@@ -92,7 +95,7 @@
 }
 
 .footerMain {
-    background-color: #1f1f1f;
+    background-color: #cfa3cf;
     color: #fff;
     padding: 20px 0;
     text-align: center;

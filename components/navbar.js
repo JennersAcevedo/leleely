@@ -24,21 +24,22 @@ export default function Navbar() {
       <ul>
         <li>
           <Link id={styles.link} href="/">
-            Home
+            Ilustrations
           </Link>
         </li>
         <li>
-          <Link id={styles.link} href="/about">
+          <Link id={styles.link} href="/">
             About me
           </Link>
         </li>
-        <li>
+        
+        {/* <li>
           <Link id={styles.link} href="https://github.com/Jenners20">
             Projects
           </Link>
-        </li>
+        </li> */}
         <li>
-          <Link id={styles.contact} href="/contact">
+          <Link id={styles.contact} href="/">
             Contact me
           </Link>
         </li>
